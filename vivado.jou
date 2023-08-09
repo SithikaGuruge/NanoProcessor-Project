@@ -1,0 +1,211 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 10 19:14:02 2023
+# Process ID: 21820
+# Current directory: C:/Users/ASUS/Lab_10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16340 C:\Users\ASUS\Lab_10\Lab_10.xpr
+# Log file: C:/Users/ASUS/Lab_10/vivado.log
+# Journal file: C:/Users/ASUS/Lab_10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Lab_10/Lab_10.xpr
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/ASUS/Lab_10/Lab_10.srcs/sources_1/imports/new/RCA_4.vhd]
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source NanoProcessor_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source NanoProcessor_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top adder_Subtractor_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source adder_Subtractor_TB.tcl
+current_wave_config {NanoProcessor_TB_behav2.wcfg}
+add_wave {{/adder_Subtractor_TB/A}} {{/adder_Subtractor_TB/B}} {{/adder_Subtractor_TB/S}} {{/adder_Subtractor_TB/Zero}} {{/adder_Subtractor_TB/C_out}} {{/adder_Subtractor_TB/C_in}} 
+save_wave_config {C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source adder_Subtractor_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top NanoProcessor_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_2
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source NanoProcessor_TB.tcl
+current_wave_config {NanoProcessor_TB_behav2.wcfg}
+add_wave {{/NanoProcessor_TB/Clk}} {{/NanoProcessor_TB/Reset}} {{/NanoProcessor_TB/Zero}} {{/NanoProcessor_TB/Overflow}} {{/NanoProcessor_TB/Reg7_Seg}} {{/NanoProcessor_TB/Reg7_out}} 
+save_wave_config {C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source NanoProcessor_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source NanoProcessor_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top adder_Subtractor_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+save_wave_config {C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg}
+current_sim simulation_4
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source adder_Subtractor_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source adder_Subtractor_TB.tcl
+current_wave_config {NanoProcessor_TB_behav2.wcfg}
+add_wave {{/adder_Subtractor_TB/C_out_plus}} 
+save_wave_config {C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source adder_Subtractor_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source adder_Subtractor_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top adder_3_bit_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source adder_3_bit_TB.tcl
+current_wave_config {NanoProcessor_TB_behav2.wcfg}
+add_wave {{/adder_3_bit_TB/A}} {{/adder_3_bit_TB/S}} 
+save_wave_config {C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source adder_3_bit_TB.tcl
+save_wave_config {C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top program_Counter_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source program_Counter_TB.tcl
+current_wave_config {NanoProcessor_TB_behav2.wcfg}
+add_wave {{/program_Counter_TB/D}} {{/program_Counter_TB/Q}} {{/program_Counter_TB/Clk}} {{/program_Counter_TB/Reset}} 
+save_wave_config {C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg
+source program_Counter_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MUX_2_way_3_bit_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg]
+launch_simulation
+source MUX_2_way_3_bit_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MUX_2_way_4_bit_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source MUX_2_way_4_bit_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Mux_8_Way_4_Bit_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source Mux_8_Way_4_Bit_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Register_Bank_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source Register_Bank_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top program_Counter_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+save_wave_config {C:/Users/ASUS/Lab_10/NanoProcessor_TB_behav2.wcfg}
+current_sim simulation_15
+close_sim
+launch_simulation
+source program_Counter_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Instruction_Decorder_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source Instruction_Decorder_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top NanoProcessor_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_7
+close_sim
+launch_simulation
+source NanoProcessor_TB.tcl
+close_sim
+current_sim simulation_21
+close_sim
+current_sim simulation_20
+close_sim
+current_sim simulation_19
+close_sim
+current_sim simulation_18
+close_sim
+current_sim simulation_17
+close_sim
+current_sim simulation_16
+close_sim
+current_sim simulation_13
+close_sim
+close_sim
